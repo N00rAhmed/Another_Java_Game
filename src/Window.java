@@ -13,5 +13,7 @@ public class Window {
 		frame.setLayout(null);
 		frame.setVisible(true);
 		
+		Character charater = new Character();
+		
 	}
 }
