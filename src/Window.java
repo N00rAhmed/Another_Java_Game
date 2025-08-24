@@ -10,9 +10,6 @@ public class Window {
 		
 	public Window() {
 		
-		
-		
-		
 		System.out.println("window");
 		
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -20,8 +17,7 @@ public class Window {
 //		frame.setLayout(null);
 		frame.setVisible(true);
 		
-//		Character charater = new Character();
-		
+		Character charater = new Character();
 	}
 	
 

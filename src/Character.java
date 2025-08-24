@@ -16,8 +16,9 @@ public class Character extends JFrame{
 //        Frame imageFrame = new Frame("C:\\Users\\Noor\\Desktop\\PROGRAMMING\\Epic_Game\\Cool_Java_Game\\src\\mario.png");
 //        imageFrame.show();
 		String imagePath = "C:\\\\Users\\\\Noor\\\\Desktop\\\\PROGRAMMING\\\\Epic_Game\\\\Cool_Java_Game\\\\src\\\\mario.png";
-		
-        var icon = new ImageIcon(imagePath);
+//		String imagePth = "./src/default/mario.png";
+
+		var icon = new ImageIcon(imagePath);
 
         if (icon.getImageLoadStatus() != java.awt.MediaTracker.COMPLETE) {
             System.out.println("Image failed to load.");
