@@ -10,7 +10,7 @@ import javax.swing.JPanel;
 public class Character extends JFrame{
 	
 
-	public void image() {
+	public Character() {
 		
 		System.out.println("Character Class");
 //        Frame imageFrame = new Frame("C:\\Users\\Noor\\Desktop\\PROGRAMMING\\Epic_Game\\Cool_Java_Game\\src\\mario.png");
