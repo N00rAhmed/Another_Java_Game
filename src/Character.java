@@ -13,10 +13,8 @@ public class Character extends JFrame{
 	public Character() {
 		
 		System.out.println("Character Class");
-//        Frame imageFrame = new Frame("C:\\Users\\Noor\\Desktop\\PROGRAMMING\\Epic_Game\\Cool_Java_Game\\src\\mario.png");
-//        imageFrame.show();
+
 		String imagePath = "C:\\\\Users\\\\Noor\\\\Desktop\\\\PROGRAMMING\\\\Epic_Game\\\\Cool_Java_Game\\\\src\\\\mario.png";
-//		String imagePth = "./src/default/mario.png";
 
 		var icon = new ImageIcon(imagePath);
 
@@ -33,13 +31,9 @@ public class Character extends JFrame{
         icon = new ImageIcon(resizedImage);
 
         var label = new JLabel(icon);
-//        frame.add(label);
 
 
 	}
 
-//    public void show() {
-//        frame.setVisible(true);  // Makes the frame visible
-//    }
 
 }
