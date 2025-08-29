@@ -32,8 +32,7 @@ public class Character extends JFrame{
 
         var label = new JLabel(icon);
 
-
 	}
-
-
 }
+
+
